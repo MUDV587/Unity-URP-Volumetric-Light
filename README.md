@@ -44,7 +44,7 @@ Then you can proceed to install this package:
 * WebGL is not supported. See https://github.com/CristianQiu/Unity-URP-Volumetric-Light/issues/7.
 * Not tested on Switch 1/2 and PS4 consoles. Verified by users in Steam Deck, Xbox One/XSX and PS5 as of v0.5.6.
 * Transparent objects are not blended correctly with fog.
-* Fully baked lights are not supported.
+* Fully baked lights are only supported through APV.
 * Fog is only rendered up to a certain distance from the camera.
 * It may be possible to notice more noise in some light regions at certain view angles.
 * When using forward or deferred rendering path, performance can be heavily affected when adding multiple additional lights. Forward+ or Deferred+ is highly recommended for best performance when support for additional lights is needed.
